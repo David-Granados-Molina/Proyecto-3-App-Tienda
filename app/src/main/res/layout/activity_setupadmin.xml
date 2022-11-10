@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tienda.SetupadminActivity"
+    android:background="#BB86FC">
+
+    <TextView
+        android:id="@+id/aencabezado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COMPLETE SUS DATOS"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:padding="15dp"
+        android:textStyle="bold"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/asetup_imagen"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/texto1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"
+        android:src="@drawable/icon_admin" />
+
+    <EditText
+        android:id="@+id/asetup_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/asetup_imagen"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/white"
+        android:hint="Nombre"
+        android:inputType="text"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/asetup_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/asetup_nombre"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/white"
+        android:hint="Email"
+        android:inputType="text"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/asetup_telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/asetup_email"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/white"
+        android:hint="Telefono"
+        android:inputType="phone"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/asetup_boton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/asetup_telefono"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/botones1"
+        android:inputType="text"
+        android:padding="10dp"
+        android:text="CONTINUAR"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tallas">
+        <item>S (55cm-65cm)</item>
+        <item>M (58cm-70cm)</item>
+        <item>L (62cm-75cm)</item>
+        <item>XL (64cm-77cm)</item>
+        <item>XXL (67cm-80cm)</item>
+    </string-array>
+</resources>

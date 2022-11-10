@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1013396521758",
+    "firebase_url": "https://carrito-glitch-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "carrito-glitch",
+    "storage_bucket": "carrito-glitch.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013396521758:android:f9f9df0dd716ad9f797f0f",
+        "android_client_info": {
+          "package_name": "com.example.tienda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1013396521758-kalr4sndvvct29bocn9u9kt28tgkvfbb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbgg70y_cqLNjqPkyVkKiu1FUEVNm5_6s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1013396521758-kalr4sndvvct29bocn9u9kt28tgkvfbb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BB86FC">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="@color/black">
+
+        <TextView
+            android:id="@+id/orden_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:layout_marginLeft="5dp"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/orden_telefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Telefono"
+            android:layout_marginLeft="5dp"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:layout_below="@+id/orden_nombre"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/orden_precio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Precio"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_below="@+id/orden_telefono"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/orden_emailDirec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email y direccion"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_below="@+id/orden_precio"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/orden_fechaHora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fecha y hora"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_below="@+id/orden_emailDirec"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/orden_verProductos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/orden_fechaHora"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/botones1"
+            android:gravity="center"
+            android:text="VER PRODUCTOS DE ESTA ORDEN"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

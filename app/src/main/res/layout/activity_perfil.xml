@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tienda.PerfilActivity"
+    android:background="#BB86FC">
+
+    <TextView
+        android:id="@+id/encabezado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DATOS USUARIO"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:padding="15dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/perfil_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/encabezado"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/white"
+        android:hint="Nombre"
+        android:inputType="text"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/perfil_direccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/perfil_nombre"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/white"
+        android:hint="Direccion"
+        android:inputType="text"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/perfil_telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/perfil_direccion"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/white"
+        android:hint="Telefono"
+        android:inputType="phone"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/perfil_ciudad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/perfil_telefono"
+        android:background="@color/white"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:hint="Ciudad"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/perfil_boton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/botones1"
+        android:inputType="text"
+        android:padding="10dp"
+        android:text="GUARDAR INFORMACION"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+</RelativeLayout>
